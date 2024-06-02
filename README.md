@@ -7,5 +7,13 @@ Sources: Fiorina, M. et al, PARVUS - An Extendible Package for Data
        and Food Analysis and Technologies, Via Brigata Salerno, 
        16147 Genoa, Italy.
 
-These data represent the outcomes of a chemical analysis conducted on wines cultivated within the same region in Italy. The wines originate from three distinct cultivars. The analysis focused on quantifying the presence of 13 different constituents within each type of wine.
+These data represent the outcomes of a chemical analysis conducted on wines cultivated within the same region in Italy. The wines originate from three distinct cultivars. The analysis focused on quantifying the presence of 13 different constituents within each type of wine. 
+
+Used Algorithms: 
+    - RandomForestClassifier
+    - KNeighborsClassifier
+    - SVC
+    - GaussianNB
+Best Accuracy Gain from the random forest algorithm. Particular confusion matrix shown below.
+
 ![confusion Matrix](https://github.com/NamalChandrasekara/Wine-Class-Prediction/assets/85227162/fe4bd8a1-3c51-437a-8bf8-0367f523bc24)
